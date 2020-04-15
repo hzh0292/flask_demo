@@ -5,7 +5,7 @@ from models import User, Question, Answer
 from sqlalchemy import or_
 from decorators import login_required
 
-app = Flask(__name__)
+app = Flask(__name__)  # type:Flask
 app.config.from_object(config)
 db.init_app(app)
 
