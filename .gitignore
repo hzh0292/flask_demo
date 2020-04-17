@@ -117,3 +117,5 @@ dmypy.json
 
 # Pycharm
 .idea/
+
+_config.py
